@@ -2,6 +2,7 @@
   "name": "azarie",
   "private": true,
   "version": "0.0.0",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
