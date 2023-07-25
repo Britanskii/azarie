@@ -1,0 +1,32 @@
+{
+  "name": "azarie",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.16.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.45.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.0",
+    "gh-pages": "^5.0.0",
+    "path": "^0.12.7",
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.5",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}

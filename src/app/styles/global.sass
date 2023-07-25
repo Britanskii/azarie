@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;700&family=Rubik+Mono+One&display=swap')
+
+\:root
+  font-size: 1px
+
+  --font-family-title:  'Rubik Mono One', sans-serif
+  --font-family-text: 'Golos Text', sans-serif
+
+  --font-size-l: 80rem
+  --font-size-sl: 48rem
+  --font-size-m: 32rem
+  --font-size-sm: 20rem
+  --font-size-r: 16rem
+  --font-size-sr: 14rem
+
+  --font-title-l: var(--font-size-l) var(--font-family-title)
+  --font-title-sl: var(--font-size-sl) var(--font-family-title)
+  --font-title-m: var(--font-size-m) var(--font-family-title)
+
+  --font-regular-sm: var(--font-size-sm) var(--font-family-text)
+  --font-regular-r: var(--font-size-r) var(--font-family-text)
+  --font-regular-sr: var(--font-size-sr) var(--font-family-text)
+
+  --accent: #FD7B2B
+  --secondary: #EDE0D4
+  --background: #333333
+  --text: #ffffff
+
+  --white: #ffffff
+  --black: #000000
+
+  --media-mobile: 800px
+
+@media (max-width: 1440px)
+  \:root
+    font-size: .07vw
+
+@media (max-width: 800px)
+  \:root
+    font-size: .315vw
+    --font-size-s: 6rem
+    --font-size-m: 10rem
+    --font-size-sm: 20rem
+    --font-size-sb: 10rem
+    --font-size-b: 20rem
+    --font-size-l: 20rem
+
+body
+  background-color: var(--background)
+  color: var(--text)
+  font-family: var(--font-family-text)
