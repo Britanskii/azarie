@@ -4,5 +4,5 @@ import {FC} from "preact/compat"
 
 export const Wrapper: FC = ({children}) => {
 
-	return <div className={s.wrapper}>{children}</div>
+	return <main className={s.wrapper}>{children}</main>
 }

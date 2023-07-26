@@ -1,5 +1,5 @@
 import "./index.sass"
-import { Feedback, Main, Products } from "../widgets"
+import { Contact, Feedback, Main, Products } from "../widgets"
 import { Wrapper } from "../shared/wrapper/ui/Wrapper.tsx"
 export const App = () => {
 
@@ -9,6 +9,7 @@ export const App = () => {
 			<Wrapper>
 				<Products/>
 				<Feedback/>
+				<Contact/>
 			</Wrapper>
 		</div>
 	)
