@@ -1,0 +1,27 @@
+.products
+  padding-top: 100rem
+  display: flex
+  flex-direction: column
+  gap: 60rem
+
+.products__item
+  align-items: center
+  gap: 60rem
+  display: flex
+  justify-content: space-between
+  &:nth-child(2n)
+    flex-direction: row-reverse
+
+.products__image
+  border-radius: 40rem
+  display: block
+  object-fit: cover
+  width: 480rem
+  height: 480rem
+
+.products__title
+  font: var(--font-title-m)
+
+.products__description
+  margin-top: 20rem
+  font: var(--font-regular-sm)
