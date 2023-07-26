@@ -1,5 +1,5 @@
 import s from "./products.module.sass"
-import {products} from "./consts/products.ts"
+import {products} from "../const/products.ts"
 
 export const Products = () => {
 
