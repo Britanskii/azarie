@@ -1,0 +1,28 @@
+.footer
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding-top: 200rem
+
+.footer__icon
+  position: relative
+  width: 24rem
+  height: 64rem
+  background-color: var(--white)
+  &:after
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translateX(-50%) translateY(-50%)
+    content: ""
+    width: 64rem
+    height: 24rem
+    background-color: var(--white)
+
+.footer__title
+  font: var(--font-regular-r)
+  color: var(--secondary)
+
+.footer__subtitle
+  color: var(--secondary)
+  opacity: 0.5
